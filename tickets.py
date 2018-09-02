@@ -259,6 +259,7 @@ class TicketService:
 def main():
     ticket_service = TicketService()
     while True:
+        print("--------------------------------------------------------------------------")
         print("Welcome to Walmart Labs Ticket Service. Choose from an option below: ")
         print("1. Find number of seats available")
         print("2. Hold a specific number of random seats")
@@ -269,6 +270,7 @@ def main():
         print("7. Display seating")
         print("8. Exit Program")
         choice = input("Enter your choice #: ")
+        print("--------------------------------------------------------------------------")
 
         if choice is "1":
             print("Total number of seats available: " + str(ticket_service.num_seats_available()))
