@@ -269,8 +269,9 @@ def main():
         print("6. Display Hold")
         print("7. Display seating")
         print("8. Exit Program")
-        choice = input("Enter your choice #: ")
         print("--------------------------------------------------------------------------")
+        choice = input("Enter your choice #: ")
+
 
         if choice is "1":
             print("Total number of seats available: " + str(ticket_service.num_seats_available()))
