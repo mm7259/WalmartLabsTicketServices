@@ -16,5 +16,5 @@ The repository must be cloned to a local machine. No further installation is nec
 
 ### Running the program 
 
-Navigate to the cloned repository via terminal. Run the command "python tickets.py" in that directory. A command line interface will be shown where the user can choose from options 1-8. 
+Navigate to the cloned repository via terminal. Run the command ".\venv\Scripts\activate". This will start up the virtual environment. Then run "python tickets.py". A command line interface will be shown where the user can choose from options 1-8. 
 
